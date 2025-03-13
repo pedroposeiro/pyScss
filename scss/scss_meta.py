@@ -46,7 +46,7 @@ from __future__ import unicode_literals
 
 import sys
 
-VERSION_INFO = (1, 4, 0)
+VERSION_INFO = (1, 4, 1)
 DATE_INFO = (2022, 2, 23)  # YEAR, MONTH, DAY
 VERSION = '.'.join(str(i) for i in VERSION_INFO)
 REVISION = '%04d%02d%02d' % DATE_INFO
@@ -56,4 +56,4 @@ AUTHOR_EMAIL = 'german.mb@gmail.com'
 URL = 'http://github.com/Kronuz/pyScss'
 DOWNLOAD_URL = 'http://github.com/Kronuz/pyScss/tarball/v' + VERSION
 LICENSE = "MIT"
-PROJECT = "pyScss"
+PROJECT = "pyScss-PP"
